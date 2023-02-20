@@ -16,11 +16,11 @@
 /* ********************************************* */
 /* region debug */
 
-.debug [class^="col_"] {
+/* .debug [class^="col_"] {
     border: 1px solid;
     height: 500px;
 }
-
+ */
 /* #region debug */
 /* ********************************************* */
 /* ********************************************* */
@@ -95,14 +95,18 @@
 
 .border {
     border-radius: 5%;
+    border: none;
+
 }
 
 .border_button {
     border-radius: 20%;
+    border: none;
+
 }
 
 .big_button {
-
+    border: none;
     color: var(--primary);
     background-color: var(--light);
 }
@@ -166,10 +170,10 @@ img {
 /* app_main region about-us */
 
 /* app_main region started */
-/* ********************************************* */
-/* ********************************************* */
-/* #region Main */
 
+/* #region Main */
+/* ********************************************* */
+/* ********************************************* */
 /* region Footer */
 
 .footer {
