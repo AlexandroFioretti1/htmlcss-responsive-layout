@@ -9,8 +9,11 @@
     --secondary: rgba(0, 133, 252, 1);
     --light: rgba(254, 255, 254, 1);
     --dark: rgba(50, 51, 50, 1);
+    --lightblue: #b5ddff;
 }
 
+/* ********************************************* */
+/* ********************************************* */
 /* region debug */
 
 .debug [class^="col_"] {
@@ -19,7 +22,8 @@
 }
 
 /* #region debug */
-
+/* ********************************************* */
+/* ********************************************* */
 /* Region Color */
 .light_c {
     color: var(--light);
@@ -35,6 +39,10 @@
 
 .dark_c {
     color: var(--dark);
+}
+
+.lightblue_c {
+    color: var(--lightblue)
 }
 
 .light_bc {
@@ -53,15 +61,15 @@
     background-color: var(--dark);
 }
 
-img {
-    width: 100%;
-
+.lightblue_bc {
+    background-color: var(--lightblue)
 }
 
 
 /* #Region Color */
 
-
+/* ********************************************* */
+/* ********************************************* */
 
 /* region Utilities */
 .p_tb {
@@ -72,6 +80,15 @@ img {
     display: flex;
 }
 
+.circle {
+    border-radius: 50%;
+    border: none;
+
+}
+
+.border{
+    border-radius: 5%;
+}
 /* #region Utilities */
 
 
@@ -110,6 +127,12 @@ img {
     flex-wrap: wrap;
 }
 
+img {
+    width: 100%;
+
+}
+
+
 /* app_main planning */
 
 .planning,
@@ -118,14 +141,16 @@ img {
     background-color: var(--primary);
 }
 
-/* app_main testimonials */
+/* app_main region testimonials */
 
+/* app_main region working */
 
+/* app_main region about-us */
 
-
+/* app_main region started */
+/* ********************************************* */
+/* ********************************************* */
 /* #region Main */
-
-
 
 /* region Footer */
 
@@ -134,6 +159,7 @@ img {
 }
 
 /* #region Footer */
+
 /* region Media queri */
 @media screen and (min-width:1160px) {
     .col_lg_4 {
