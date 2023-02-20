@@ -45,6 +45,10 @@
     color: var(--lightblue)
 }
 
+.orange_c {
+    color: rgb(241, 192, 101);
+}
+
 .light_bc {
     background-color: var(--light);
 }
@@ -65,6 +69,9 @@
     background-color: var(--lightblue)
 }
 
+.orange_bc {
+    color: rgb(241, 192, 101);
+}
 
 /* #Region Color */
 
@@ -86,9 +93,20 @@
 
 }
 
-.border{
+.border {
     border-radius: 5%;
 }
+
+.border_button {
+    border-radius: 20%;
+}
+
+.big_button {
+
+    color: var(--primary);
+    background-color: var(--light);
+}
+
 /* #region Utilities */
 
 
