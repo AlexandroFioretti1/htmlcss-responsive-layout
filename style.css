@@ -80,7 +80,30 @@
 
 /* region Footer */
 
-.footer{
+.footer {
     background-color: var(--dark);
 }
+
 /* #region Footer */
+
+
+@media screen and (min-width:1160px) {
+    .col_lg_4 {
+        width: calc(100% / 12 * 4);
+    }
+
+    .col_lg_6 {
+        width: calc(100% / 12 * 6);
+    }
+
+    .col_lg_8 {
+        width: calc(100% / 12 * 8);
+    }
+    .col_lg_12{
+        width: 100%;
+    }
+}
+
+@media screen and {
+    
+}
