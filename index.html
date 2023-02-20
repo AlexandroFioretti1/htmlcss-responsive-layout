@@ -5,19 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Htmlcss-responsive-layout</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
     <header id="app_header">
-        <div class="side_header">
-            <div class="header_left">
-                <img src="#" alt="logo">
-            </div>
-            <div class="header-right">
-                ///
+        <div class="container">
+            <div class="side_header display_f">
+                <div class="header_left">
+                    <img src="./assets/img/logo.png" alt="logo">
+                </div>
+                <div>
+                    <div class="header-right"> <i class="fa-solid fa-bars fa-2x light_c"></i></div>
+                </div>
             </div>
         </div>
     </header>
@@ -25,19 +29,45 @@
     <!-- app-store-demo- -->
     <main id="app_main">
         <div class="app_main">
-            <div class="container debug p">
+            <div class="container debug p_tb">
                 <div class="row">
-                    <div class="col_12 col_md_8 col_lg_8"></div>
-                    <div class="col_12 col_md_4 col_lg_4"></div>
-                    <div class="col_12 col_md_4 col_lg_4"></div>
-                    <div class="col_12 col_md_4 col_lg_4"></div>
-                    <div class="col_12 col_md_4 col_lg_4"></div>
+                    <div class="col_12 col_md_8 col_lg_8 ">
+                        <h3 class="secondary_c">Get a demo application</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptatibus
+                            doloribusveritatis assumenda, labore aspernatur! </p>
+                        <button class="secondary_bc"> <i class="fa-brands fa-apple light_c"></i> App Store</button>
+                        <img src="./assets/img/phone.png" alt="phone">
+                    </div>
+                    <div class="col_12 col_md_4 col_lg_4">
+                        <i class="fa-solid fa-file-code fa-5x secondary_c"></i>
+                        <h3 class="secondary_c"> Clean Code</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, reprehenderit. Natus
+                            impedit aliquid ratione facere.</p>
+                    </div>
+                    <div class="col_12 col_md_4 col_lg_4">
+                        <i class="fa-solid fa-compass-drafting fa-5x secondary_c"></i>
+                        <h3 class="secondary_c">Web Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis modi molestias dolorum
+                            aspernatur excepturi nulla!</p>
+                    </div>
+                    <div class="col_12 col_md_4 col_lg_4">
+                        <i class="fa-solid fa-laptop-code fa-5x secondary_c "></i>
+                        <h3 class="secondary_c">Developement</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolore odio, unde porro optio
+                            minus!</p>
+                    </div>
+                    <div class="col_12 col_md_4 col_lg_4">
+                        <i class="fa-solid fa-bullhorn fa-5x secondary_c"></i>
+                        <h3 class="secondary_c">Branding</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eaque nostrum atque sit
+                            molestias natus!</p>
+                    </div>
                 </div>
             </div>
             <!--  /app-store-demo- -->
             <!-- planning area -->
             <section class="planning">
-                <div class="container debug p">
+                <div class="container debug p_tb">
                     <div class="row">
                         <div class="col_12 col_lg_6"></div>
                         <div class="col_12 col_lg_6"></div>
@@ -47,7 +77,7 @@
             <!-- /planning area -->
             <!-- Area testimonials -->
             <section class="testimonials">
-                <div class="container debug p">
+                <div class="container debug p_tb">
                     <div class="row"></div>
                     <div class="col_12 col_lg_12"></div>
                     <div class="col_12 col_lg_12"></div>
@@ -57,7 +87,7 @@
             </section>
             <!-- /Area testimonials -->
             <section class="working">
-                <div class="container debug p">
+                <div class="container debug p_tb">
                     <div class="row">
                         <div class="col_12 col_md_6 col_lg_4"></div>
                         <div class="col_12 col_md_6 col_lg_4"></div>
@@ -69,7 +99,7 @@
                 </div>
             </section>
             <section class="about-us">
-                <div class="container debug p">
+                <div class="container debug p_tb">
                     <div class="row">
                         <div class="col_12 col_md_8 col_lg_8"> </div>
                         <div class="col_12 col_md_4 col_lg_4"> </div>
@@ -77,7 +107,7 @@
                 </div>
             </section>
             <section class="started">
-                <div class="container debug p">
+                <div class="container debug p_tb">
                     <div class="row">
                         <div class="col_12 col_md_12"> </div>
                     </div>
@@ -90,7 +120,7 @@
     </footer>
     <!-- /#app_footer -->
     <section class="footer">
-        <div class="container debug p">
+        <div class="container debug p_tb">
             <div class="row">
                 <div class="col_12 col_md_12"> </div>
             </div>
