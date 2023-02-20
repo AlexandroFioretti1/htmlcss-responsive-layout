@@ -32,9 +32,10 @@
 /* #region header */
 
 /* region Utilities */
-.p{
+.p {
     padding: 1rem 0;
 }
+
 /* #region Utilities */
 
 
@@ -62,8 +63,24 @@
 
 /* app_main planning */
 
-.planning{
+.planning,
+.working,
+.started {
     background-color: var(--primary);
 }
 
+/* app_main testimonials */
+
+
+
+
 /* #region Main */
+
+
+
+/* region Footer */
+
+.footer{
+    background-color: var(--dark);
+}
+/* #region Footer */
