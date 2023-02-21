@@ -79,9 +79,17 @@
 /* ********************************************* */
 
 /* region Utilities */
+.pad{
+    padding: 2rem;
+
+}
 .p_tb {
     padding: 1rem 0;
 }
+.m_tb{
+    margin: 1rem 0;
+}
+
 
 .display_f {
     display: flex;
@@ -102,15 +110,30 @@
 .border_button {
     border-radius: 20%;
     border: none;
+}
 
+
+
+.card_button{
+    border: none;
+    background-color: var(--primary);
+    color: var(--light);
+    width: 30%;
 }
 
 .big_button {
     border: none;
     color: var(--primary);
     background-color: var(--light);
+    width: 70%;
+    height: 30%;
+    border-radius: 25%;
 }
 
+.j_c{
+    display: grid;
+    justify-content: center;
+}
 /* #region Utilities */
 
 
