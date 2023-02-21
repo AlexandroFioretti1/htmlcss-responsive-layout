@@ -79,18 +79,22 @@
 /* ********************************************* */
 
 /* region Utilities */
-.pad{
+.pad {
     padding: 2rem;
 
 }
+
 .p_tb {
     padding: 1rem 0;
 }
-.m_tb{
+
+.m_tb {
     margin: 1rem 0;
 }
 
-
+.text_center{
+    text-align: center;
+}
 .display_f {
     display: flex;
 }
@@ -98,8 +102,6 @@
 .circle {
     border-radius: 50%;
     border: none;
-    width: 30%;
-
 }
 
 .border {
@@ -109,13 +111,16 @@
 }
 
 .border_button {
-    border-radius: 20%;
+    border-radius: 30%;
     border: none;
+    font-size: 1.5rem;
 }
 
+.font_size{
+    font-size: 2rem;
+}
 
-
-.card_button{
+.card_button {
     border: none;
     background-color: var(--primary);
     color: var(--light);
@@ -126,16 +131,17 @@
     border: none;
     color: var(--primary);
     background-color: var(--light);
-    width: 70%;
-    height: 30%;
-    border-radius: 25%;
+    font-size: 1.5rem;
+    border-radius: 20%;
 }
 
-.j_c{
+.j_c {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
+
 /* #region Utilities */
 
 
@@ -172,11 +178,12 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin: -1rem;
 }
 
 img {
     width: 100%;
-
+    
 }
 
 
@@ -188,6 +195,10 @@ img {
     background-color: var(--primary);
 }
 
+
+main .row>[class^="col_"] {
+    margin: 10px 5px;
+}
 /* app_main region testimonials */
 
 /* app_main region working */
@@ -210,67 +221,69 @@ img {
 /* region Media queri */
 @media screen and (min-width:1160px) {
     .col_lg_4 {
-        width: calc(100% / 12 * 4);
+        width: calc(92% / 12 * 4 -2rem);
+       padding: 0 1rem;
     }
 
     .col_lg_6 {
-        width: calc(100% / 12 * 6);
+        width: calc(92% / 12 * 6 -2rem);
+     
     }
 
     .col_lg_8 {
-        width: calc(100% / 12 * 8);
+        width: calc(92% / 12 * 8 -2rem);
+       padding: 0 1rem;
+      
     }
 
     .col_lg_12 {
         width: 100%;
     }
-}
 
+
+    .col_12 .col_md_8{
+        height: 100%;
+        margin-top: 5rem;
+    }
+
+    .planning .col_lg_6 {
+        padding: 2rem;
+    }
+}
 @media screen and (min-width: 768px) {
     .col_md_4 {
-        width: calc(100% / 12 * 4);
+        width: calc(92% / 12 * 4);
+        margin: 5px;
     }
 
     .col_md_6 {
-        width: calc(100% / 12 * 6);
+        width: calc(92% / 12 * 6);
     }
 
     .col_md_8 {
-        width: calc(100% / 12 * 8);
+        width: calc(92% / 12 * 8);
     }
 
     .col_md_12 {
         width: 100%;
     }
-    
 
-    .col_12.col_md_4,
-    .col_12.col_md_8 {
-        padding: 1rem;
-        margin: 0;
-    }
 
     .btn_demo {
         text-align: left;
         margin: 2rem auto;
     }
 
-    
-
     .testimonial {
         flex-direction: row;
         align-items: center;
     }
-
-   
 
     .about-us .row {
         margin-bottom: 2rem;
         margin-top: 0;
         width: 100%;
     }
-
-
 }
 
 
