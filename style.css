@@ -98,6 +98,7 @@
 .circle {
     border-radius: 50%;
     border: none;
+    width: 30%;
 
 }
 
@@ -131,7 +132,8 @@
 }
 
 .j_c{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 /* #region Utilities */
@@ -240,6 +242,37 @@ img {
     .col_md_12 {
         width: 100%;
     }
+    
+
+    .col_12.col_md_4,
+    .col_12.col_md_8 {
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .btn_demo {
+        text-align: left;
+        margin: 2rem auto;
+    }
+
+    
+
+    .testimonial {
+        flex-direction: row;
+        align-items: center;
+    }
+
+   
+
+    .about-us .row {
+        margin-bottom: 2rem;
+        margin-top: 0;
+        width: 100%;
+    }
+
+
 }
+
+
 
 /* #region media queri */
